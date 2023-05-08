@@ -1,0 +1,63 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Exo Font */
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+}
+
+header {
+    margin: 0;
+}
+
+
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.navbar-light .navbar-brand {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #a6c6e6;
+}
+
+
+
+.hero-section {
+    position: relative;
+    background: url('../images/hero\ image.jpg') no-repeat bottom right fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+}
