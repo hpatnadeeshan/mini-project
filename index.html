@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
-            <a class="navbar-brand" href="#">Tharindu Nadeeshan</a>
+            <a class="navbar-brand custom-brand" href="#"><img src="/assets/images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,54 +48,27 @@
         </nav>
     </header>
     <!-- hero-->
-    <section class="hero-section"></section>
-    <!-- about-->
-    <!-- <section class="about">
-        <div class="row">
-            <div class="col-12 my-5">
-                <h2 class="text-uppercase">About:</h2>
+    <section class="hero-section">
+        <!-- <div id="hero-video">
+            <video autoplay muted loop>
+                <source src="https://www.youtube.com/watch?v=0iYsBnj2BUk" type="video/mp4">
+            </video>
+            <div class="fallback">
+                <h1>My Hero Image</h1>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature">
-                    <h3><i class="fa-solid fa-user"></i> Feature 1 <span class="badge badge-success">NEW!</span>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat.</p>
-                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature">
-                    <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat.</p>
-                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-12 d-md-none d-lg-block col-lg-4">
-                <div class="feature">
-                    <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat.</p>
-                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
+        </div> -->
+
+
+    </section>
+
+    <section id="about" class="white">
+        <div class="container-fluid">
+
+            <h2 class="section-title">
+                <span class="title-text">About Me</span>
+                <a class="see-more-circle-btn" href="#"></a>
+            </h2>
+
             <p class="summary">I am a frontend web developer with 5 years of experience. I have a degree in Computer
                 Science
                 and have worked for various companies such as XYZ and ABC.</p>
@@ -117,41 +90,55 @@
 
 
     <!-- services-->
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-container">
-            <div class="service">
-                <i class="fas fa-code"></i>
-                <h3>Web Development</h3>
-                <p>We specialize in building custom websites that meet the unique needs of our clients.</p>
-            </div>
-            <div class="service">
-                <i class="fas fa-shopping-cart"></i>
-                <h3>E-commerce Development</h3>
-                <p>We help businesses of all sizes establish an online store and reach more customers with their
-                    products
-                    and services.</p>
-            </div>
-            <div class="service">
-                <i class="fas fa-search"></i>
-                <h3>SEO</h3>
-                <p>We provide search engine optimization services to help businesses improve their online visibility and
-                    attract more organic traffic to their website.</p>
+
+
+
+    <section id="services" class="grey">
+        <h2 class="section-title">
+            <span class="title-text">Our Services</span>
+            <a class="see-more-circle-btn" href="#"></a>
+        </h2>
+
+        <div class="container-fluid">
+            <div class="row flex-column flex-md-row">
+                <div class="col">
+                    <!-- Content for the first div goes here -->
+                    <div class="service">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>We specialize in building custom websites that meet the unique needs of our clients.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Content for the second div goes here -->
+                    <div class="service">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>E-commerce Development</h3>
+                        <p>We help businesses of all sizes establish an online store and reach more customers with their
+                            products
+                            and services.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Content for the third div goes here -->
+                    <div class="service">
+                        <i class="fas fa-search"></i>
+                        <h3>SEO</h3>
+                        <p>We provide search engine optimization services to help businesses improve their online
+                            visibility and
+                            attract more organic traffic to their website.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- <section class="services">
-        <div class="row">
-            <div class="col-12 my-5">
-                <h2 class="text-uppercase">Services:</h2>
-            </div>
-        </div>
-    </section> -->
     <!-- portfolio -->
-    <section class="portfolio">
-        <h2 class="section-title">Portfolio</h2>
-        <div class="portfolio-wrapper">
+    <section id="portfolio" class="white">
+        <h2 class="section-title">
+            <span class="title-text">Portfolio</span>
+            <a class="see-more-circle-btn" href="#"></a>
+        </h2>
+        <div class="container-fluid">
             <a href="https://getbootstrap.com/" class="portfolio-item" target="_blank">
                 <img src="/assets/images/1.jpg" alt=" Website 1">
                 <div class="portfolio-overlay">
@@ -170,14 +157,18 @@
                     <h3>www.developer.mozilla.org</h3>
                 </div>
             </a>
+
         </div>
     </section>
 
 
     <!-- testimonials -->
-    <section class="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonials-grid">
+    <section id="testimonials" class="grey">
+        <h2 class="section-title">
+            <span class="title-text">Testimonials</span>
+            <a class="see-more-circle-btn" href="#"></a>
+        </h2>
+        <div class="container-fluid">
             <div class="testimonial">
                 <p>"[Testimonial text here]"</p>
                 <cite>- [Testimonial author name here]</cite>
@@ -194,21 +185,17 @@
                 <p>"[Testimonial text here]"</p>
                 <cite>- [Testimonial author name here]</cite>
             </div>
+
         </div>
     </section>
 
-
-    <!-- <section class="testimonials">
-        <div class="row">
-            <div class="col-12 my-5">
-                <h2 class="text-uppercase">testimonials:</h2>
-            </div>
-        </div>
-    </section> -->
     <!-- blog -->
-    <section class="blog">
-        <h2 class="section-title">Recent Posts</h2>
-        <div class="post-container">
+    <section id="blog" class="white">
+        <h2 class="section-title">
+            <span class="title-text">Recent Posts</span>
+            <a class="see-more-circle-btn" href="#"></a>
+        </h2>
+        <div class="container-fluid">
             <div class="post">
                 <a href="#">
                     <img src="/assets/images/1.jpg" alt="Post 1">
@@ -239,17 +226,59 @@
                     viverra at.</p>
                 <a href="#" class="see-more"><i class="fas fa-arrow-right"></i> See More</a>
             </div>
+
         </div>
     </section>
 
     <!-- contact -->
-    <section class="contact">
-        <div class="row">
-            <div class="col-12 my-5">
-                <h2 class="text-uppercase">contact:</h2>
-            </div>
+    <!-- <section id="contact" class="grey">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Contact Me</span>
+                <a class="see-more-circle-btn" href="#"></a>
+            </h2>
+            <p>Feel free to get in touch with me for any questions, comments or work inquiries.</p>
+            <form action="process-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+
+        </div>
+    </section> -->
+
+    <section id="contact" class="grey">
+        <div class="container-fluid">
+
+            <h2 class="section-title">
+                <span class="title-text">Get in Touch</span>
+                <a class="see-more-circle-btn" href="#"></a>
+
+            </h2>
+            <p>Feel free to contact us with any questions or inquiries. We'd love to hear from you!</p>
+            <ul class="contact-info">
+                <li><i class="fa fa-map-marker"></i>123 Main Street, Anytown USA</li>
+                <li><i class="fa fa-phone"></i>(555) 555-5555</li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+
         </div>
     </section>
+
+
+
     <footer>
         <div class="social-icons">
             <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -275,7 +304,15 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/937ad0d044.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.image-container').addClass('loading');
+            $('.image-container img').on('load', function () {
+                $('.image-container').removeClass('loading');
+            });
+        });
 
+    </script>
 </body>
 
 </html>
