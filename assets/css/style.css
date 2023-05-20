@@ -54,12 +54,12 @@ header {
     border-radius: 25%;
 }
 
-@media (min-width: 576px) .navbar-expand-sm .navbar-collapse {
+@media (min-width: 576px) {.navbar-expand-sm .navbar-collapse {
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-}
+}}
 
 .collapse:not(.show) {
     display: none;
@@ -77,7 +77,7 @@ header {
 
 .hero-section {
     position: relative;
-    background: url('../images/hero\ image.jpg') no-repeat bottom right fixed;
+    background: url('../images/new_background.png') no-repeat bottom right fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
